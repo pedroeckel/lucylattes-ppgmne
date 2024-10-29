@@ -41,7 +41,7 @@ def report_write(qf):
         jfile.close()
 
     # start write the report
-    htmlfile = open('./relatorio/relatorio_producao.html', 'w')
+    htmlfile = open('./relatorio/relatorio_producao.html', 'w', encoding='utf-8')
     htmlfile.write('<!DOCTYPE html> \n ')
     htmlfile.write('<head> \n ')
     # verificando sistema
